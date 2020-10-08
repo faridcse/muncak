@@ -1,0 +1,221 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Open Sans', sans-serif;
+
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/***********************************
+          Your Project css start
+***********************************/
+
+/***********************************
+      header-section css start
+***********************************/
+
+.header-section{
+	width: 100%;
+	background: url("../images/header-bg.png") center top no-repeat;
+	background-size: cover;
+}
+.header-section .menu{
+	width: 100%;
+}
+.header-section .menu .bg-light{
+	background: transparent !important;
+}
+.header-section .menu .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    margin: 0px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 0px;
+}
+.header-section .menu .navbar-light .navbar-nav .nav-link:hover{
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.header-section .menu .navbar-light .navbar-nav .active>.nav-link{
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.header-section .menu .navbar-light .navbar-nav .btn-info {
+	padding: 5px 30px;
+	background: #ffffff;
+	color: #2870db;
+	border:0px;
+	border-radius: 30px;
+	font-size: 14px;
+    font-weight: 400;
+    transition: 1s ease-in;
+}
+.header-section .menu .navbar-light .navbar-nav .btn-info:hover, .menu .navbar-light .navbar-nav .btn-info:focus{
+	background: #fff;
+	color: #1c2056;
+	border:0px;
+}
+
+
+.header-section .banner{
+	width: 100%;
+	padding: 60px 0px 170px;
+}
+.header-section .banner .banner-inner{
+	width: 100%;
+	padding: 50px 0px 150px 100px;
+}
+.header-section .banner .banner-inner h1{
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 700;
+	color: #1c2056;
+}
+.header-section .banner .banner-inner p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #5a6e79;
+}
+.header-section .banner .banner-inner .btn-info{
+	padding: 15px 35px;
+	margin-top: 15px;
+	background: #2870db;
+	color: #fff;
+	border:0px;
+	border-radius: 30px;
+	font-size: 16px;
+    font-weight: 400;
+    transition: 1s ease-in;
+}
+.header-section .banner .banner-inner .btn-info:hover, .header-section .banner .banner-inner .btn-info:focus{
+	background: #1c2056;
+	color: #fff;
+	border:0px;
+}
+
+/***********************************
+      header-section css end
+***********************************/
+
+/***********************************
+      body-section css start
+***********************************/
+.body-section{
+	width: 100%;
+	background: url("../images/body-bg.png") center top no-repeat;
+	background-size: cover;
+}
+.body-section .inner-text{
+	width: 100%;
+	text-align: center;
+}
+
+.body-section .inner-text h2{
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 46px;
+	color: #263238;
+}
+.body-section .adv-text{
+	margin-top: 320px;
+	margin-left: 175px;
+}
+.body-section .adv-text h4{
+	font-size: 20px;
+	font-weight: 700;
+	color: #263238;
+}
+.body-section .adv-text p{
+	padding: 20px 0px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #546e7a;
+}
+.body-section .vol-text{
+	margin-top: 100px;
+    margin-left: 620px;
+}
+.body-section .vol-text h4{
+	font-size: 20px;
+	font-weight: 700;
+	color: #263238;
+}
+.body-section .vol-text p{
+	padding: 20px 0px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #546e7a;
+}
+
+.body-section .exp-text{
+	margin-top: 75px;
+    margin-left: 195px;
+}
+.body-section .exp-text h4{
+	font-size: 20px;
+	font-weight: 700;
+	color: #263238;
+}
+.body-section .exp-text p{
+	padding: 20px 0px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #546e7a;
+}
+.body-section .exp-button .btn-info{
+	padding: 15px 35px;
+	margin-top: 140px;
+    margin-left: 125px;
+	background: #2870db;
+	color: #fff;
+	border:0px;
+	border-radius: 30px;
+	font-size: 16px;
+    font-weight: 400;
+    transition: 1s ease-in;
+}
+
+.body-section .exp-button .btn-info:hover{
+	background: #1955a3;
+}
+/***********************************
+      body-section css end
+***********************************/
+
+/***********************************
+      counter-section css start
+***********************************/
+
+.counter-section{
+	width: 100%;
+}
+.counter-section .counter-text{
+	width: 100%;
+
+	text-align: center;
+}
+.counter-section .counter-text h2{
+	margin-top: 50px;
+	font-size: 25px;
+	font-weight: 700;
+	color: #263238;
+}
+
+/***********************************
+      counter-section css end
+***********************************/
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans', sans-serif;
