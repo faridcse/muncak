@@ -30,6 +30,7 @@ a, a:hover{
 	width: 100%;
 	background: url("../images/header-bg.png") center top no-repeat;
 	background-size: cover;
+	padding:20px 0px 180px;
 }
 .header-section .menu{
 	width: 100%;
@@ -71,13 +72,13 @@ a, a:hover{
 
 .header-section .banner{
 	width: 100%;
-	padding: 60px 0px 170px;
 }
 .header-section .banner .banner-inner{
 	width: 100%;
 	padding: 50px 0px 150px 100px;
 }
 .header-section .banner .banner-inner h1{
+	padding: 100px 0px;
 	font-size: 40px;
 	line-height: 50px;
 	font-weight: 700;
@@ -116,6 +117,7 @@ a, a:hover{
 	width: 100%;
 	background: url("../images/body-bg.png") center top no-repeat;
 	background-size: cover;
+	padding: 50px 0px;
 }
 .body-section .inner-text{
 	width: 100%;
@@ -129,10 +131,13 @@ a, a:hover{
 	color: #263238;
 }
 .body-section .adv-text{
-	margin-top: 320px;
-	margin-left: 175px;
+	width: 100%;
+	background: #fff;
+	padding: 30px;
+	margin-top: 290px;
 }
 .body-section .adv-text h4{
+	margin-top: 20px;
 	font-size: 20px;
 	font-weight: 700;
 	color: #263238;
@@ -144,8 +149,10 @@ a, a:hover{
 	color: #546e7a;
 }
 .body-section .vol-text{
+	width: 100%;
+	background: #fff;
+	padding: 30px;
 	margin-top: 100px;
-    margin-left: 620px;
 }
 .body-section .vol-text h4{
 	font-size: 20px;
@@ -160,8 +167,10 @@ a, a:hover{
 }
 
 .body-section .exp-text{
-	margin-top: 75px;
-    margin-left: 195px;
+	width: 100%;
+	background: #fff;
+	padding: 30px;
+	margin-top: 100px;
 }
 .body-section .exp-text h4{
 	font-size: 20px;
@@ -176,7 +185,7 @@ a, a:hover{
 }
 .body-section .exp-button .btn-info{
 	padding: 15px 35px;
-	margin-top: 140px;
+	margin-top: 215px;
     margin-left: 125px;
 	background: #2870db;
 	color: #fff;
@@ -190,6 +199,63 @@ a, a:hover{
 .body-section .exp-button .btn-info:hover{
 	background: #1955a3;
 }
+
+.body-section .counter-text{
+	width: 100%;
+	text-align: center;
+	margin-top: 275px;
+}
+.body-section .counter-text h2{
+	margin-top: 50px;
+	font-size: 25px;
+	font-weight: 700;
+	color: #263238;
+}
+.body-section .mobilized-text{
+	width: 100%;
+	text-align: center;
+	padding: 50px 0px;
+}
+.body-section .mobilized-text h4{
+	font-size: 14px;
+	color: #263238;
+}
+.body-section .mobilized-text h2{
+	font-size: 24px;
+	font-weight: 700;
+	color: #1a56a3;	
+}
+
+.body-section .facilitated-text{
+	width: 100%;
+	text-align: center;
+	padding: 50px 0px;
+}
+.body-section .facilitated-text h4{
+	font-size: 14px;
+	color: #263238;
+}
+.body-section .facilitated-text h2{
+	font-size: 24px;
+	font-weight: 700;
+	color: #1a56a3;	
+}
+
+.body-section .contributed-text{
+	width: 100%;
+	text-align: center;
+	padding: 50px 0px;
+}
+.body-section .contributed-text h4{
+	font-size: 14px;
+	color: #263238;
+}
+.body-section .contributed-text h2{
+	font-size: 24px;
+	font-weight: 700;
+	color: #1a56a3;	
+}
+
 /***********************************
       body-section css end
 ***********************************/
@@ -198,20 +264,7 @@ a, a:hover{
       counter-section css start
 ***********************************/
 
-.counter-section{
-	width: 100%;
-}
-.counter-section .counter-text{
-	width: 100%;
 
-	text-align: center;
-}
-.counter-section .counter-text h2{
-	margin-top: 50px;
-	font-size: 25px;
-	font-weight: 700;
-	color: #263238;
-}
 
 /***********************************
       counter-section css end
